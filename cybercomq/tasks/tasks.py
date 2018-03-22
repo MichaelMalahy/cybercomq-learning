@@ -2,6 +2,7 @@ from celery.task import task
 from dockertask import docker_task
 from subprocess import call,STDOUT
 import requests
+import random
 
 #Default base directory 
 #basedir="/data/static/"
@@ -16,3 +17,10 @@ def add(x, y):
     """
     result = x + y
     return result
+
+@task()
+def dice_roll(sides):
+    """ Example task that rolls a die with a specified number of sides 
+        args: sides
+        return random int """
+    return random.randrange(sides) + 1
