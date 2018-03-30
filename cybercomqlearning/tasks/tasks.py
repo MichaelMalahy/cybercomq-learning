@@ -27,7 +27,7 @@ def dice_roll(sides):
     return random.randrange(sides) + 1
 
 dice = int("*")
-For int in range(dice):
+For i in range(dice):
     print(dice_roll(sides))
     
 
