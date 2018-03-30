@@ -25,7 +25,7 @@ def dice_roll(sides):
         args: sides
         return random int """
     return random.randrange(sides) + 1
-def multi_dice(number,sides)
+def multi_dice(number,sides):
     dice = range(number)
     result = []
     for i in dice:
