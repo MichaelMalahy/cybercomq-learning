@@ -19,10 +19,10 @@ def add(x, y):
     return result
 
 @task()
-def dice_roll(sides):
+def dice_roll(sides)
 def dice(number_dice):
-for dice_roll in range(x)
-    x = dice
+    for dice_roll in range(x)
+         x = dice
     
     """ Example task that rolls a die with a specified number of sides 
         args: (sides, number_dice)
