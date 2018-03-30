@@ -25,10 +25,12 @@ def dice_roll(sides):
         args: sides
         return random int """
     return random.randrange(sides) + 1
-
-dice = int()
-For i in dice:
-    return dice_roll(sides)
+def multi_dice(number,sides)
+    dice = range(number)
+    result = []
+    for i in dice:
+        result.append(dice_roll(sides))
+    return result
     
 
     
