@@ -20,7 +20,6 @@ def add(x, y):
 
 @task()
 def dice_roll(sides):
-    
     """ Example task that rolls a die with a specified number of sides 
         args: sides
         return random int """
@@ -28,6 +27,10 @@ def dice_roll(sides):
 
 @task()
 def multi_dice(number,sides):
+    """Example task that rolls a specified number of dice with a specified
+       number of sides
+       args: ('number of dice','number of sides')
+       returns a list N integers in length"""
     dice = range(number)
     result = []
     for i in dice:
