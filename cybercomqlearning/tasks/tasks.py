@@ -37,6 +37,15 @@ def multi_dice(number,sides):
         result.append(dice_roll(sides))
     return result
     
-
+@task()
+def Roll_values(dice, die_sides):
+    """Example task that allows you to specifiy the number of sides for each
+       die within a list and returns the [('number of sides, 'roll value'), ]
+       for each die."""
+    Roll_values = []
+    dice = []
+    for die_sides in dice:
+        Roll_values.append([die_sides, random.randint(1,sides)])
+    return Roll_values
     
     
