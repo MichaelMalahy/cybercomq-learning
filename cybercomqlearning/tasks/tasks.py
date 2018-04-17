@@ -38,7 +38,7 @@ def multi_dice(number,sides):
     return result
     
 @task()
-def Roll_values(dice, die_sides):
+def Roll_values(die_sides):
     """Example task that allows you to specifiy the number of sides for each
        die within a list and returns the [('number of sides, 'roll value'), ]
        for each die."""
