@@ -47,5 +47,5 @@ def Roll_values(die_sides):
     for die_sides in dice:
         Roll_values.append([die_sides, random.randint(1,sides)])
     return Roll_values
-    
+    print(Roll_values)
     
