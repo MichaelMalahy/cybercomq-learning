@@ -43,9 +43,7 @@ def Roll_values(die_sides):
        die within a list and returns the [('number of sides, 'roll value'), ]
        for each die."""
     Roll_values = []
-    dice = []
-    for die_sides in dice:
-        Roll_values.append([die_sides, random.randint(1,sides)])
+    for dside in die_sides:
+        Roll_values.append([dside, random.randint(1,die_sides)])
     return Roll_values
     print(Roll_values)
-    
